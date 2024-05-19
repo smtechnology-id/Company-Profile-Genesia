@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+}
+body {
+    background-color: #fffce4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 22px;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.main-section {
+    padding: 20px;
+}
+.main-section .container-fluid {
+    min-height: 80vh;
+    width: 100vw;
+}
+
+.country-list {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #FF6600;
+}
+
+.navbar {
+    background-color: #ff9404;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ff9404 !important;
+}
+
+nav .btn-warning {
+    background-color: #048384;
+    color: black;
+}
+
+nav .btn-warning:hover {
+    background-color: #478f8f;
+    color: #f8f9fa;
+}
