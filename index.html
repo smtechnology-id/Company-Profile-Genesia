@@ -1,121 +1,741 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genesis Education</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genesis Education</title>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/lOGO GIA(1).png" alt="Genesis Logo" style="height: 80px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Profil Genesia</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Pilihan Negara
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Germany</a></li>
-                            <li><a class="dropdown-item" href="#">Turkiye</a></li>
-                            <li><a class="dropdown-item" href="#">Malaysia</a></li>
-                            <li><a class="dropdown-item" href="#">Egypt</a></li>
-                            <li><a class="dropdown-item" href="#">Findland</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Program Genesia
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">GSZ</a></li>
-                            <li><a class="dropdown-item" href="#">Persiapan Kuliah Luar Negeri</a></li>
-                            <li><a class="dropdown-item" href="#">Pendampingan Siswa Luar Negeri Di Indonesia</a></li>
-                            <li><a class="dropdown-item" href="#">Program Bahasa Dunia</a></li>
-                            <li><a class="dropdown-item" href="#">World Edu Jurney</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-warning text-dark" href="#">Daftar Konsultasi</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="content" style="width: 100vw;">
-        <div class="main-section">
-            <div class="container-fluid row d-flex flex-row align-items-center justify-content-center" style="width: 100;">
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <h1 class="country-list  text-uppercase"><label
-                            class="text-warning text-decoration-underline">Germany</label> <br> <label
-                            class="text-danger text-decoration-underline">Turkey</label> <br> <label
-                            class="text-primary text-decoration-underline">Malaysia</label></h1>
-                </div>
-                <div class="col-md-6 d-flex flex-column align-items-start justify-content-center" style="color: #048384;">
-                    <h2><span class="text-warning">Kenapa Harus</span> Kuliah ke Luar Negeri <span
-                            class="text-danger">?</span></h2>
-                    <ul style="font-size: 22px;">
-                        <li>Pendidikan Berkualitas Tinggi</li>
-                        <li>Networking yang Luas</li>
-                        <li>Meningkatkan Kemampuan Bahasa Asing</li>
-                        <li>Biaya Terjangkau dengan Fasilitas Terbaik</li>
-                        <li>Mempelajari Berbagai Perspektif Baru</li>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/lOGO GIA(1).png" alt="Genesis Logo"
+                        style="height: 80px;">
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profil Genesia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pilihan Negara
+                            </a>
+                            <ul class="dropdown-menu"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="germany.html">Germany</a></li>
+                                <li><a class="dropdown-item" href="#">Turkiye</a></li>
+                                <li><a class="dropdown-item" href="#">Malaysia</a></li>
+                                <li><a class="dropdown-item" href="#">Egypt</a></li>
+                                <li><a class="dropdown-item" href="#">Findland</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Program Genesia
+                            </a>
+                            <ul class="dropdown-menu"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">GSZ</a></li>
+                                <li><a class="dropdown-item" href="#">Persiapan
+                                        Kuliah Luar Negeri</a></li>
+                                <li><a class="dropdown-item" href="#">Pendampingan
+                                        Siswa Luar Negeri Di Indonesia</a></li>
+                                <li><a class="dropdown-item" href="#">Program
+                                        Bahasa Dunia</a></li>
+                                <li><a class="dropdown-item" href="#">World Edu
+                                        Jurney</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-warning text-dark"
+                                href="#">Daftar Konsultasi</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="section-container">
-            <div class="container-fluid row" style="height: 100vh;">
-                <!-- Text Content -->
-                <div class="col-md-6 text-content d-flex flex-column justify-content-center align-items-center text-center ">
-                    <h2>Here We Are, The World Citizen</h2>
-                    <h1>Genesia International Academy</h1>
-                    <a href="#" class="btn btn-lg btn-warning">Preparation Studi</a>
+        </nav>
+
+        <div class="content" style="width: 100vw;">
+            <div class="main-section">
+                <div class="container-fluid row d-flex flex-row align-items-center justify-content-center"
+                    style="width: 100;">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <h1 class="country-list text-uppercase"><label
+                                class="text-warning text-decoration-underline">Germany</label>
+                            <br> <label
+                                class="text-danger text-decoration-underline">Turkey</label>
+                            <br> <label class="text-primary text-decoration-underline">Malaysia</label>
+                            <br> <label class="text-danger text-decoration-underline">Egypt</label>
+                            <br> <label class="text-warning text-decoration-underline">Findland</label>
+                        </h1>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column align-items-start justify-content-center text-banner" style="color: #048384;">
+                        <h2 class="title-mobile-center "><span class="text-warning">Kenapa Harus</span>
+                            Kuliah ke Luar Negeri <span
+                                class="text-danger">?</span></h2>
+                        <ul style="font-size: 22px;">
+                            <li>Pendidikan Berkualitas Tinggi</li>
+                            <li>Networking yang Luas</li>
+                            <li>Meningkatkan Kemampuan Bahasa Asing</li>
+                            <li>Biaya Terjangkau dengan Fasilitas Terbaik</li>
+                            <li>Mempelajari Berbagai Perspektif Baru</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-6" style="border-left: 3px solid #048384;">
-                    <div class="row" style="height: 100vh;">
-                        <div class="col-12 row">
-                            <div class="col-md-6">
-                                <img src="images/lOGO GIA(1).png" style="width: 100%;" alt="" srcset="">
+            </div>
+            <!-- here We Are Section -->
+            <div class="section-container here-we-are">
+                <div class="container-fluid row" style="height: 100vh; width:100vw">
+                    <!-- Text Content -->
+                    <div
+                        class="col-md-6 text-content d-flex flex-column justify-content-center align-items-center text-center ">
+                        <h4>Here We Are, The World Citizen</h4>
+                        <h1>Genesia International Academy</h1>
+                        <a href="#" class="btn btn-lg btn-warning">Preparation
+                            Studi</a>
+                    </div>
+                    <div class="col-md-6"
+                        style="border-left: 3px solid #048384;">
+                        <div class="row" style="height: 100vh;">
+                            <div class="col-12 row">
+                                <div class="col-md-6">
+                                    <img src="images/lOGO GIA(1).png"
+                                        style="width: 100%;" alt srcset>
+                                </div>
+                                <div class="col-md-6 mobile-none"
+                                    style="background-color: #ff9404;">
+                                </div>
                             </div>
-                            <div class="col-md-6" style="background-color: #ff9404;">
+                            <div class="col-12 row mobile-none">
+                                <div class="col-md-6"
+                                    style="background-color: #048384;">
+                                </div>
+                                <div
+                                    class="col-md-6 d-flex justify-content-center mobile-none">
+                                    <img src="images/ORNAMEN GIA.png"
+                                        style="width: 100%; height: 100%; object-fit: cover;"
+                                        alt srcset>
+                                </div>
+
                             </div>
-                        </div>
-                        <div class="col-12 row">
-                            <div class="col-md-6" style="background-color: #048384;">
-                            </div>
-                            <div class="col-md-6">
-                                <img src="images/ORNAMEN GIA.png" style="width: 100%; right: 0; bottom: 0;" alt="" srcset="">
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Section GSZ -->
+            <section class="section-gsz">
+                <div class="container-fluid">
+                    <h2>GENESIA SPRACHZENTRUM (GSZ)</h2>
+                    <h3 class="mb-5">PUSAT BAHASA GENESIA</h3>
+                    <p class="mb-5">GIA mempunyai program belajar bahasa asing,
+                        yakni bahasa
+                        Jerman, Turki, Inggris dan Arab, dengan berbagai varian
+                        untuk usia, segmen dan tingkat pendidikan, serta
+                        orientasi untuk menempuh kuliah di sana ataupun sebagai
+                        hobby.</p>
+                    <a href="#" class="btn-connect">Let's Connect</a>
+                </div>
+            </section>
+
+            <!-- Section Komitment -->
+
+            <section class="section-commitment">
+                <div class="container-fluid d-flex justify-content-center flex-column align-items-center">
+                    <h2 class="commitment-heading">KOMITMEN KAMI</h2>
+                    <p class="commitment-description">
+                        Indonesia adalah bangsa besar yang tidak hanya luas
+                        wilayahnya, namun juga kaya alamnya. Bangsa ini sejak
+                        dulu sudah disegani oleh bangsa lain. Namun saat ini,
+                        luas wilayah dan kekayaan alam yang dimiliki seakan tak
+                        berarti apa-apa. Kita ketinggalan oleh bangsa lain dalam
+                        kemajuan dan kesejahteraan.
+                    </p>
+                    <p class="commitment-description">
+                        Kunci utama dari ketertinggalan itu adalah sumber daya
+                        manusia. Tantangan terus muncul untuk dijawab. Bonus
+                        demografi, gelombang globalisasi dan industri 4.0 adalah
+                        diantaranya. Semua tantangan ini adalah sekaligus
+                        peluang yang bisa jadi pengungkit kebangkitan bangsa
+                        besar ini.
+                    </p>
+                    <p class="commitment-description">
+                        Genesia International Academy, lahir dan tumbuh untuk
+                        memperjuangkan kualitas manusia Indonesia. Dengan
+                        berbagai program pendidikan yang berorientasi
+                        international, kami berupaya mengangkat kembali kualitas
+                        pendidikan dan kualitas manusia Indonesia secara umum,
+                        untuk membawa bangsa ini kembali disegani dan menjadi
+                        pionir dunia.
+                    </p>
+                    <p class="commitment-signature">Genesia for Great Indonesia</p>
+                </div>
+            </section>
+
+            <!-- Section Persiapan Kuliah Luar negeri -->
+
+            <section class="section-commitment">
+                <div
+                    class="container-fluid d-flex justify-content-center flex-column align-items-center">
+                    <h2 class="commitment-heading justify-content-start">Persiapan
+                        Kuliah Luar Negeri</h2>
+                    <p class="commitment-description">
+                        Indonesia adalah bangsa besar yang tidak hanyanluas
+                        wilayahnya, namun juga kaya alamnya. Bangsa ini sejak
+                        dulu sudah disegani oleh bangsa lain. Namun saat ini,
+                        luas wilayah dan kekayaan alam yang dimiliki seakan tak
+                        berarti apap-apa. Kita ketinggalan oleh bangsa lain
+                        dalam kemajuan dan kesejahteraan.
+                    </p>
+                    <p class="commitment-description">
+                        Kunci utama dari ketertinggalan itu adalah sumber daya
+                        manuasia. Tantangan terus muncul untuk dijawab. Bonus
+                        demografi, gelombang globalisasi dan industri 4.0 adalah
+                        diantaranya. Semua tantangan ini adalah sekaligus
+                        peluang yang bisa jadi pengungkit kebangkotan bangasa
+                        besar ini.
+                    </p>
+                    <p class="commitment-description">
+                        Genesia International Academy, lahir dan tumbuh untuk
+                        memperjuangkan kualitas manusia Indonesia. Dengan
+                        berbagai program pendidikan yang berorientasi
+                        international, kami berupaya mengangkat kembali kualitas
+                        pendidikan dan kulitas manusia Indonesia secara umum,
+                        untuk membawa bangsa ini kembali disegani dan menjadi
+                        pionir dunia.
+                        Genensia for Great Indonesia
+                    </p>
+                </div>
+            </section>
+
+            <section class="section-commitment">
+                <div
+                    class="container-fluid d-flex justify-content-center flex-column align-items-center">
+                    <h2 class="commitment-heading justify-content-start">Pendampingan
+                        Siswa Luar Negeri Di Indonesia</h2>
+                    <p class="commitment-description">
+                        Seiring terus bergulirnya kemajuan pendidikan Indonesia
+                        dan semakin tingginya kualitas perguruan tinggi di
+                        Indonesia, secara bertahap banyak pelajar dari
+                        negara-negara di Asia, Afrika, dan benua lain yang mulai
+                        menjadikan Indonesia sebagi negara tempat studi mereka.
+                        Maka Genesia International Academy pun mensuppport hal
+                        ini agar Indonesia semakin menjadi salah satu negara
+                        tujuan studi di dunia. Bersama stake holder yang lain,
+                        kami membantu proses ini terus student luar negeri di
+                        Indonesia dalam aspek bahasa, adaptasi sosial kultural
+                        dengan masyarakat Indonesia.
+                    </p>
+                    <p class="commitment-description">
+                        Kesuksesan studi dari para student di Indonesia, maupun
+                        student Indonesia di luar negeri, membuat kami semakin
+                        bangga dan semakin berkomitmen untuk menjadikan generasi
+                        masa depan berprestasi dan berperan aktfi di level
+                        dunia.
+                    </p>
+                </div>
+            </section>
+            <section class="section-commitment">
+                <div
+                    class="container-fluid d-flex justify-content-center flex-column align-items-center">
+                    <h2 class="commitment-heading justify-content-start">Program
+                        Bahasa Dunia</h2>
+                    <p class="commitment-description">
+                        Bahasa adalah kunci memahami dan berinteraksi dengan
+                        sebuah bangsa, Saat ini kami mempunyai program belajar
+                        bahasa Jerman, Turki dan Inhggris dengan berbagai varian
+                        untuk usia, segmen dan tingkat pendidikan, yang akan
+                        membuat siswa tidak hanya menikmati metode belajar,
+                        namun juga efektif meningkatkan kemampuan bahasa.
+                    </p>
+                    <p class="commitment-description">
+                        Kurikulum dan metode pembelajaran bahasa asing di
+                        Genesia, kami susun dengan mengacu pada kekhasan tiap
+                        grup, dan sasaran yang ingin dicapai. Di bawah Genesia
+                        Sprachzentrum (GSZ/Genesian Language Center) yang
+                        dipimpin oleh Bpk. Abdul Hadi, S.Pd., MA, Genesia
+                        mengembangkan dan menerapkan pembelajaran bahasa asing
+                        paling efektif dan sesuai sasaran, bagi semua grup,
+                        seperti anak-anak, pelajar (SD, SMP, SMA), Mahasiswa
+                        maupunn para profesional.
+                    </p>
+                    <p class="commitment-description">
+                        Siswa tidak hanya menikmati metode belajar terbaik,
+                        namun juga efektif meningkatkan kemampuan bahasanya,
+                        baik segi tata bahasanya maupun percakapannya.
+                    </p>
+                </div>
+            </section>
+
+            <section
+                class="section-program-pendampingan d-flex justify-content-center align-items-center">
+                <div class="container-fluid p-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div
+                                class="row d-flex align-items-center justify-content-center">
+                                <div
+                                    class="col-md-12 d-flex align-items-center justify-content-center">
+                                    <img src="images/lamp.png" alt srcset
+                                        style="width: 300px;">
+                                </div>
+                                <div
+                                    class="col-md-12 d-flex align-items-center justify-content-center">
+                                    <h2 class="heading">Program Pendampingan Pra
+                                        Keberangkatan & Saat Di Negara Tujuan</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row section-table"
+                                style="min-height: 100%;">
+                                <div class="col-12 bg-yellow">
+                                    <p>Konseling Studi Tim Dan Pendampingan
+                                        Selama Masa Studi</p>
+                                </div>
+                                <div class="col-12 bg-semi-green">
+                                    <p>Reservasi Tempat Tinggal Sementara dan
+                                        Penjemputan Saat Tiba di negara tujuan</p>
+                                </div>
+                                <div class="col-12 bg-green">
+                                    <p>PendampinganSaat KeberangkatanDi Bandara
+                                        Soekarno Hatta</p>
+                                </div>
+                                <div class="col-12 bg-yellow">
+                                    <p>Orientasi Awal (Tempat Ibadah, Kursus
+                                        Bahasa dan Lapor Diri KBRI, Dll)</p>
+                                </div>
+                                <div class="col-12 bg-semi-green">
+                                    <p>Pendaftaran Kursus Bahasa Lanjutan dan
+                                        Pendampingan Ujian Masuk Studienkolleg
+                                        (Jerman)</p>
+                                </div>
+                                <div class="col-12 bg-green">
+                                    <p>Pendampingan Pencarian Tempat Tinggal di
+                                        Lokal kota Yang Diambil</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Program Pendampingan Pra Keberangkatan -->
+            <section
+                class="program-pendampingan-pra-keberangkatan d-flex flex-column justify-content-center align-items-center">
+                <div
+                    class="container d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="mb-5 heading" style="color: #fffce4;">Program
+                        Pendampingan Pra Keberangkatan dan Saat Di
+                        Negara Tujuan</h2>
+                    <div class="row g-5 mt-5">
+                        <div class="col-md-4">
+                            <div class="card" style="background-color:#fffce4 ;">
+                                <img
+                                    src="images/a-group-of-students-in-finland-with-the-city-backg-kSI9spWyRe6mPrYAZnaaRg-dEIiKjAOToKA26Cbgy5xdQ.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p>JADWAL</p>
+                                    <h5 class="card-title">Periode Ajaran Baru</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="background-color:#fffce4 ;">
+                                <img
+                                    src="images/a-group-of-students-in-finland-with-the-city-backg-kSI9spWyRe6mPrYAZnaaRg-dEIiKjAOToKA26Cbgy5xdQ.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p>PERSIAPAN</p>
+                                    <h5 class="card-title">VISA</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="background-color:#fffce4 ;">
+                                <img
+                                    src="images/a-group-of-students-in-finland-with-the-city-backg-kSI9spWyRe6mPrYAZnaaRg-dEIiKjAOToKA26Cbgy5xdQ.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p>PILIHAN</p>
+                                    <h5 class="card-title">BEASISWA</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study In German -->
+            <section
+                class="study-in-germany d-flex align-items-center justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="heading">
+                                Study In Germany, Why?
+                            </h2>
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-rounded">
+                                <img
+                                    src="images/a-group-of-students-in-germany-with-the-city-backg-ScRr71iJS0SfGekNG9ZTRw-cGJCPph_TM65zMcwLjhMTw.jpeg"
+                                    alt srcset>
+                                <div class="text bg-green">
+                                    <h3 class="text-center">Join With Us</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="programs my-5" style="padding: 0 50px;">
+                <div class="row" style>
+                    <div class="col-md-6">
+                        <div
+                            class="header-content d-flex flex-row align-items-center bg-green p-2 mb-5"
+                            style="border-radius: 0 50px 50px 0;">
+                            <img src="images/indonesia.png" alt srcset
+                                style="width: 80px;">
+                            <h2 class="heading ms-3"
+                                style="text-align:left; font-size: 32px; color: #fffce4; font-weight: 500;">Program
+                                Dokumen dan Administrasi Studi</h2>
+                        </div>
+                        <div class="content mx-2">
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="header-content d-flex flex-row align-items-center justify-content-end bg-green p-2 mb-5"
+                            style="border-radius: 50px 0 0 50px;">
+                            <h2 class="heading me-3"
+                                style="text-align:right; font-size: 32px; color: #fffce4; font-weight: 500;">Program
+                                Dokumen dan Administrasi Studi</h2>
+                            <img src="images/indonesia.png" alt srcset
+                                style="width: 80px;">
+
+                        </div>
+                        <div class="content mx-2">
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5" style>
+                    <div class="col-md-12">
+                        <div
+                            class="header-content d-flex flex-row align-items-center align-items-center     bg-green p-2 mb-5"
+                            style="border-radius: 0 20px 20px 0;">
+                            <h2 class="heading ms-3"
+                                style="text-align:center; font-size: 32px; color: #fffce4; font-weight: 500;">Program
+                                Dokumen dan Administrasi Studi</h2>
+                        </div>
+                        <div class="content mx-2">
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="programs my-5 d-flex align-items-center justify-content-center"
+                style="padding: 0 50px;">
+                <div class="row " style>
+                    <div class="col-md-6">
+                        <div
+                            class="header-content d-flex flex-row align-items-center bg-green p-2 mb-5"
+                            style="border-radius: 0 50px 50px 0;">
+                            <img src="images/germany-156642_1280.jpg" alt srcset
+                                style="width: 80px;">
+                            <h2 class="heading ms-3"
+                                style="text-align:left; font-size: 32px; color: #fffce4; font-weight: 500;">Program
+                                Dokumen dan Administrasi Studi</h2>
+                        </div>
+                        <div class="content mx-2">
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="header-content d-flex flex-row align-items-center justify-content-end bg-green p-2 mb-5"
+                            style="border-radius: 50px 0 0 50px;">
+                            <h2 class="heading me-3"
+                                style="text-align:right; font-size: 32px; color: #fffce4; font-weight: 500;">Program
+                                Dokumen dan Administrasi Studi</h2>
+                            <img src="images/germany-156642_1280.jpg" alt srcset
+                                style="width: 80px;">
+
+                        </div>
+                        <div class="content mx-2">
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study In Malaysia -->
+            <section
+                class="study-in-germany d-flex align-items-center justify-content-center">
+                <div class="container-fluid ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="heading">
+                                Study In Malaysia, Why?
+                            </h2>
+                            <div class="list">
+                                <ul>
+                                    <li>Jerman memiliki 380 perguruan tinggi dan
+                                        17.000 program studi dari seluruh bidang
+                                        keilmuan</li>
+                                    <li>terdapat +/- Universitas berkualitas
+                                        tinggi di jerman, dan 90% adalah
+                                        Universitas Negeri (subsidi penuh) </li>
+                                    <li> peluang kerja resmi sebagai mahasiswa
+                                        part time & full time di berbagai
+                                        perusahaan kelas dunia, menambah
+                                        pengalaman & kemandiriian (6-15 Euro/jam
+                                        sebagai mahasiswa)</li>
+                                    <li>Living cost terjangkau, 500-700 euro
+                                        perbulan</li>
+                                    <li>Fasilitas mahasiswa mendungkung sukses
+                                        studi</li>
+                                    <li>Sistem pendidikan bergelar international
+                                        S1 (Bachelor), S2 (Master), S3 (Doctor)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-rounded">
+                                <img
+                                    src="images/a-female-student-wearing-a-hijab-holding-a-book-wi-Fnc26fTCSS6Sbg_dV98gmw-7DGQsINhQMmLbQ_jjC5GOg.jpeg"
+                                    alt srcset>
+                                <div class="text bg-green">
+                                    <h3 class="text-center">Join With Us</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="nav-content"
+                style="max-width: 100vw; min-height: 100vh;">
+                <div class="row container-fluid d-flex align-items-center"
+                    style="min-height: 100vh;">
+                    <div
+                        class="col-md-4 d-flex justify-content-center flex-column align-items-center"
+                        style="min-height: 90vh; border-radius: 20px; border: 10px solid #048384; border-left: none; border">
+                        <img src="images/indonesia.png" alt>
+                        <h2 class="heading" style="font-weight: 500;">Indonesia</h2>
+                    </div>
+                    <div class="col-md-8">
+                        <div
+                            class="row d-flex flex-column justify-content-center align-items-center">
+                            <div
+                                class="col-12 d-flex flex-column justify-content-center align-items-center m-3">
+                                <h2><a href
+                                        class="btn btn-lg btn-warning btn-nav">Layanan
+                                        Di Indonesia</a></h2>
+                            </div>
+                            <div
+                                class="col-12 d-flex flex-column justify-content-center align-items-center m-3">
+                                <h2><a href class="btn btn-lg btn-green btn-nav">Layanan
+                                        Di Indonesia</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-content p-5"
+                style="max-width: 100vw; min-height: 100vh;">
+                <div class="container-fluid d-flex align-items-center flex-column justify-content-center" style="min-height: 100vh;">
+                    <h2 class="heading mb-5">Contact Us</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="background-color: #fffce4;">
+                                <img src="images/a-vibrant-illustration-of-a-diverse-group-of-stude-dVg5epkISbqwZawqYLw3zw-0MgGF3CNT1-Nqpq7B9b7bQ.jpeg" class="card-img-top" alt="..." style="max-height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">GIA Surabaya</h5>
+                                    <p class="card-text">Perum Puri Taman Asri B-3, Jl Pagesangan Asri Sepanjang Sepanjang Surabaya, Jawa Timur 61257</p>
+                                    <p class="card-text">Telp. 031-82523179</p>
+                                    <a href="#" class="btn btn-warning">Cek</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="background-color: #fffce4;">
+                                <img src="images/a-vibrant-illustration-of-a-diverse-group-of-stude-dVg5epkISbqwZawqYLw3zw-0MgGF3CNT1-Nqpq7B9b7bQ.jpeg" class="card-img-top" alt="..." style="max-height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">GIA Surabaya</h5>
+                                    <p class="card-text">Perum Puri Taman Asri B-3, Jl Pagesangan Asri Sepanjang Sepanjang Surabaya, Jawa Timur 61257</p>
+                                    <p class="card-text">Telp. 031-82523179</p>
+                                    <a href="#" class="btn btn-warning">Cek</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="background-color: #fffce4;">
+                                <img src="images/a-vibrant-illustration-of-a-diverse-group-of-stude-dVg5epkISbqwZawqYLw3zw-0MgGF3CNT1-Nqpq7B9b7bQ.jpeg" class="card-img-top" alt="..." style="max-height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">GIA Surabaya</h5>
+                                    <p class="card-text">Perum Puri Taman Asri B-3, Jl Pagesangan Asri Sepanjang Sepanjang Surabaya, Jawa Timur 61257</p>
+                                    <p class="card-text">Telp. 031-82523179</p>
+                                    <a href="#" class="btn btn-warning">Cek</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
